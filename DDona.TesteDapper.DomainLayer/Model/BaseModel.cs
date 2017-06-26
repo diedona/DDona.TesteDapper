@@ -7,18 +7,11 @@ using System.Threading.Tasks;
 
 namespace DDona.TesteDapper.DomainLayer.Model
 {
-    public abstract class Base
+    public abstract class BaseModel
     {
-        protected readonly SismatDB _db;
-
         public int Id { get; set; }
         public bool Status { get; set; }
         public DateTime CreatedDate { get; set; }
         public DateTime? UpdatedDate { get; set; }
-
-        public Base()
-        {
-            _db = new SismatDB("testeDapper");
-        }
     }
 }

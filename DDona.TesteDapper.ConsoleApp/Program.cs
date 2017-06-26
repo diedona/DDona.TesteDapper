@@ -1,4 +1,5 @@
-﻿using DDona.TesteDapper.DomainLayer.Model;
+﻿using DDona.TesteDapper.DomainLayer.Intelligence;
+using DDona.TesteDapper.DomainLayer.Model;
 using System;
 using System.Collections.Generic;
 using System.Linq;
